@@ -1,10 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title> branch </title>
-    <meta charset="utf-8"/>
-  </head>
   <body>
+    <head>
+      <title> branch </title>
+      <meta charset="utf-8"/>
+    </head>
+    <h1>
+      clone과 pull, fetch
+    </h1>
+    <p>
+      <span style="font-weight: 700;">1. git clone</span><br>
+      : 'git clone' 커멘드는 remote 저장소를 복제하여 로컬에 새로운 저장소를 생성한다.<br>
+      remote 저장소의 모든 commit 기록과 브랜치를 포함한 전체를 로컬에 복제한다
+    </p>
+    <p>
+      <span style="font-weight: 700;">2. git pull</span><br>
+      : 'git pull' 커멘드는 remote 저장소의 변경 사항을 로컬 저장소로 가져와 현재 branch에 병합한다.<br>
+      'git fetch'와 'git merge'를 결합한 명령어 
+    </p>
+    <p>
+      <span style="font-weight: 700;">3. git fetch</span><br>
+      : 'git fetch' 커멘드는 remote 저장소의 변경 사항을 로컬 저장소로 가져오지만, <br>
+      현재 branch에 병합하지는 않는다. remote의 최신 상태를 로컬 장소에 업데이트 하는데 사용함
+    </p>
+    <a href="https://velog.io/@bufflect/Git-clone-vs-fetch-vs-pull">자료 출처</a>
     <div>
       <ol>
         <li>
@@ -13,3 +32,5 @@
       </ol>
     </div>
   </body>
+</html>
+
